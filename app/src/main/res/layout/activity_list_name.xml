@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:text="Mulai AsyncTask"
         android:onClick="startAsync"
+        android:textColor="@android:color/black"
+        android:background="@color/colorAccent"
         />
 
     <ListView
