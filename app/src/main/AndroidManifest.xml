@@ -16,8 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListName"
+        <activity
+            android:name=".ListName"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".ImageSearch"
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
-    </application>
 
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
